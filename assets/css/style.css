@@ -23,6 +23,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   min-width: 1200px;
   font-size: 14px;
+  color: #33475B;
 }
 
 .float-left{
@@ -32,6 +33,9 @@ body{
 a{
   text-decoration: none;
   color: black;
+}
+h1{
+  font-size: 4em;
 }
 
 .p-h{
