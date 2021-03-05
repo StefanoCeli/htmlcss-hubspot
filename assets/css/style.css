@@ -34,10 +34,21 @@ a{
   color: black;
 }
 
+.p-h{
+  padding: 25px 0;
+}
+
+.p-l{
+  padding-left: 20px;
+}
+
+.b-bot{
+  border-bottom: 2px solid #566a79;
+}
+
 /* HEADER */
 header{
   margin-top: 80px;
-  height: 600px;
 }
 
 .container{
@@ -50,8 +61,8 @@ header{
 .info-bar{
   width: 100%;
   height: 80px;
+  min-width: 1200px;
   background-color: #F4F9FD;
-  border-bottom: 2px solid #566a79;
   line-height: 80px;
   position: fixed;
   top: 0;
@@ -60,13 +71,13 @@ header{
 .contact a:first-child:after{
   content: '';
   padding-left: 20px;
-  margin-right: 20px;
   border-right: 1px solid black;
 }
 
 .log-in a{
   margin-left: 20px;
 }
+
 .search{
   color: #00A5BE;
 }
@@ -90,10 +101,14 @@ header{
   color: #FE775A;
 }
 
-/* NAV */
+/* LOGO CON MENU */
 
-.p-h{
-  padding: 25px 0;
+.logo{
+  width: 30%;
+}
+
+nav .menu-inline{
+  width: 70%;
 }
 
 .menu-inline{
@@ -102,5 +117,21 @@ header{
 
 .menu-inline li{
   display: inline;
-  padding: 0 15px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+  background-color: #FFF4EF;
+  height: 612px;
+  background-image: url(../img/jumbotron.png);
+  background-position-x:100% ;
+  background-repeat: no-repeat;
+}
+
+.jumbo-bar{
+  height: 80px;
+  background-color: #AFEBE4;
 }
