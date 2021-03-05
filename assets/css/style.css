@@ -38,7 +38,6 @@ a{
 header{
   margin-top: 80px;
   height: 600px;
-  background-color: aqua;
 }
 
 .container{
@@ -89,4 +88,19 @@ header{
 .btn-white{
   border: 1px solid #FE775A;
   color: #FE775A;
+}
+
+/* NAV */
+
+.p-h{
+  padding: 25px 0;
+}
+
+.menu-inline{
+  list-style: none;
+}
+
+.menu-inline li{
+  display: inline;
+  padding: 0 15px;
 }
