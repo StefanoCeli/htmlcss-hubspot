@@ -34,8 +34,14 @@ a{
   text-decoration: none;
   color: black;
 }
+
 h1{
   font-size: 4em;
+}
+
+p{
+  font-size: 1.3em;
+  
 }
 
 .p-h{
@@ -47,7 +53,11 @@ h1{
 }
 
 .b-bot{
-  border-bottom: 2px solid #566a79;
+  border-bottom: 1px solid #566a79;
+}
+
+.line-h{
+  line-height: 30px;
 }
 
 /* HEADER */
@@ -70,6 +80,7 @@ header{
   line-height: 80px;
   position: fixed;
   top: 0;
+  border-bottom: 1px solid #566a79;
 }
 
 .contact a:first-child:after{
@@ -105,6 +116,10 @@ header{
   color: #FE775A;
 }
 
+.btn.btn-large{
+  padding: 25px;
+}
+
 /* LOGO CON MENU */
 
 .logo{
@@ -138,4 +153,10 @@ nav .menu-inline{
 .jumbo-bar{
   height: 80px;
   background-color: #AFEBE4;
+  border-top: 3px solid #566a79;
+  border-bottom: 3px solid #566a79;
+}
+
+.small-text{
+  font-size: 0.9em;
 }
