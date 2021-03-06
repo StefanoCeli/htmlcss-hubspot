@@ -30,6 +30,8 @@ body{
   float: left;
 }
 
+/* CLASSI PER LINK E TESTO */
+
 a{
   text-decoration: none;
   color: black;
@@ -37,6 +39,10 @@ a{
 
 h1{
   font-size: 4em;
+}
+
+h2{
+  font-size: 2em;
 }
 
 p{
@@ -52,12 +58,16 @@ p{
   padding-left: 20px;
 }
 
-.b-bot{
-  border-bottom: 1px solid #566a79;
-}
-
 .line-h{
   line-height: 30px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.small-text{
+  font-size: 0.9em;
 }
 
 /* HEADER */
@@ -157,6 +167,19 @@ nav .menu-inline{
   border-bottom: 3px solid #566a79;
 }
 
-.small-text{
-  font-size: 0.9em;
+/* MAIN */
+
+#togheter{
+  position: relative;
+}
+
+#togheter .cubo{
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cubo img{
+  width: 300px; 
 }
