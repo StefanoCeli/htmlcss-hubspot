@@ -22,13 +22,6 @@ body{
   width: 50%;
 }
 
-.w-30{
-  width: 30%;
-  background-color: RED;
-  height: 300px;
-  border: 1px solid black;
-}
-
 .right-text{
   text-align: right;
 }
@@ -73,10 +66,6 @@ p{
   padding: 20px 0;
 }
 
-.p-l{
-  padding-left: 20px;
-}
-
 .line-h{
   line-height: 30px;
 }
@@ -112,15 +101,13 @@ header{
   border-bottom: 1px solid #566a79;
 }
 
-.contact a:first-child:after{
+
+.info-bar .contact li:first-child:after{
   content: '';
   padding-left: 20px;
   border-right: 1px solid black;
 }
 
-.log-in a{
-  margin-left: 20px;
-}
 
 .search{
   color: #00A5BE;
@@ -155,8 +142,15 @@ header{
   width: 30%;
 }
 
-nav .menu-inline{
+.nav-bot .menu-inline{
   width: 70%;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+
+.nav-bot .menu-inline i{
+  padding-left: 20px;
 }
 
 .menu-inline{
@@ -165,9 +159,14 @@ nav .menu-inline{
 
 .menu-inline li{
   display: inline;
-  font-weight: 600;
-  line-height: 34px;
+  padding-left: 20px;
 }
+  
+.menu-inline li:first-child{
+  padding-left: 0;
+}
+
+
 
 /* JUMBOTRON */
 
@@ -203,33 +202,50 @@ nav .menu-inline{
 
 .icon{
   height: 100px;
-  display: block;
 }
 
 .box-white{
   background-color: #FFF;
   box-shadow: 2px 2px 5px #D3D3D3;
-  padding: 3% 5%;
+  padding: 3%;
 }
 
-#togheter .box-white .btn-large{
+.learn-more{
   margin-top: 20px;
 }
 
 .box-book{
-  width: 25%;
+  width: 20%;
 }
 
 .box-free-crm{
-  width: 75%;
+  width: 80%;
+  padding: 0 3%;
+  
 }
 
 .feature{
   text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
 }
 
-.feature::after{
+h4.feature::after{
   content: '';
-  width: 50px;
-  border-bottom: 1px solid black;
+  height: 2px;
+  background-color: gray;
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  width: 60%;
+}
+
+#togheter .menu-inline li i{
+  padding-right: 20px;
+  color: #FE775A;
+}
+
+.col-3{
+  width: 30%;
+  margin-top: 5%;
 }
