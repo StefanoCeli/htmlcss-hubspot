@@ -11,19 +11,30 @@
   clear: both;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1200px;
+  font-size: 14px;
+  color: #33475B;
+}
+
 .w-50{
   width: 50%;
+}
+
+.w-30{
+  width: 30%;
+  background-color: RED;
+  height: 300px;
+  border: 1px solid black;
 }
 
 .right-text{
   text-align: right;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
-  min-width: 1200px;
-  font-size: 14px;
-  color: #33475B;
+.box-margin{
+  margin: 0 5%;
 }
 
 .float-left{
@@ -45,13 +56,21 @@ h2{
   font-size: 2em;
 }
 
-p{
+h3{
+  font-size: 1.6em;
+}
+
+h4{
   font-size: 1.3em;
+}
+
+p{
+  font-size: 1.2em;
   
 }
 
 .p-h{
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
 .p-l{
@@ -76,7 +95,7 @@ header{
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -127,7 +146,7 @@ header{
 }
 
 .btn.btn-large{
-  padding: 25px;
+  padding: 15px 30px;
 }
 
 /* LOGO CON MENU */
@@ -170,16 +189,47 @@ nav .menu-inline{
 /* MAIN */
 
 #togheter{
-  position: relative;
+  background-color:  #F4F9FD;
 }
 
-#togheter .cubo{
-  position: absolute;
-  margin-top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+.cubo{
+  padding-top: 50px;
+  margin: auto;
 }
 
 .cubo img{
-  width: 300px; 
+  width: 250px; 
+}
+
+.icon{
+  height: 100px;
+  display: block;
+}
+
+.box-white{
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px #D3D3D3;
+  padding: 3% 5%;
+}
+
+#togheter .box-white .btn-large{
+  margin-top: 20px;
+}
+
+.box-book{
+  width: 25%;
+}
+
+.box-free-crm{
+  width: 75%;
+}
+
+.feature{
+  text-transform: uppercase;
+}
+
+.feature::after{
+  content: '';
+  width: 50px;
+  border-bottom: 1px solid black;
 }
