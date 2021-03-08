@@ -78,6 +78,10 @@ p{
   font-size: 0.9em;
 }
 
+ul{
+  list-style: none;
+}
+
 /* HEADER */
 header{
   margin-top: 80px;
@@ -153,10 +157,6 @@ header{
   padding-left: 20px;
 }
 
-.menu-inline{
-  list-style: none;
-}
-
 .menu-inline li{
   display: inline;
   padding-left: 20px;
@@ -189,6 +189,7 @@ header{
 
 #togheter{
   background-color:  #F4F9FD;
+  padding-bottom: 50px;
 }
 
 .cubo{
@@ -200,18 +201,23 @@ header{
   width: 250px; 
 }
 
+.free{
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
 .icon{
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .box-white{
   background-color: #FFF;
   box-shadow: 2px 2px 5px #D3D3D3;
-  padding: 3%;
 }
 
 .learn-more{
-  margin-top: 20px;
+  font-weight: 600;
 }
 
 .box-book{
@@ -226,26 +232,40 @@ header{
 
 .feature{
   text-transform: uppercase;
-  position: relative;
   margin-bottom: 20px;
 }
 
-h4.feature::after{
+
+.box-free-crm h4.feature::after{
   content: '';
   height: 2px;
+  display: block;
+  margin-top: 11px;
   background-color: gray;
-  position: absolute;
-  right: 0;
-  bottom: 50%;
+  float: right;
   width: 60%;
 }
 
-#togheter .menu-inline li i{
+#togheter .menu-inline li i, .menu-left li i{
   padding-right: 20px;
   color: #FE775A;
 }
 
 .col-3{
   width: 30%;
-  margin-top: 5%;
+  padding: 30px;
+}
+
+.col-3 p::after{
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid black;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.menu-left{
+  text-align: left;
+  margin-bottom: 50px;
 }
