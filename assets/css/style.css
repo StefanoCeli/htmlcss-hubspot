@@ -325,7 +325,8 @@ header{
 
 .loghi-sponsor{
   position: absolute;
-  width: 550px;
+  width: 50%;
+  height: 150px;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -334,7 +335,8 @@ header{
 .loghi-sponsor ul li{
   display: inline-block;
   padding:0 10px ;
-  width: 120px;
+  width: 25%;
+  min-width: 80px;
   margin-bottom: 30px;
 }
 
