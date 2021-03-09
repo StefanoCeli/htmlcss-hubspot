@@ -220,7 +220,8 @@ header{
 
 .box-white{
   background-color: #FFF;
-  box-shadow: 2px 2px 5px #D3D3D3;
+  box-shadow: 2px 2px 10px #D3D3D3;
+  border-radius: 10px;
 }
 
 .learn-more{
