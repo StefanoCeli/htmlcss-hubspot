@@ -53,6 +53,10 @@ h4{
   font-size: 1.4em;
 }
 
+h5{
+  font-size: 1.1em;
+}
+
 p{
   font-size: 1.3em;
   line-height: 25px;
@@ -350,4 +354,38 @@ header{
 
 #start .w-50.right-text img{
   height: 400px;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #32495B;
+  color: #FFF;
+  height: 700px;
+}
+
+footer .col-4 ul li{
+  line-height: 40px;
+}
+
+footer .col-4 ul li a{
+  color: #FFF;
+}
+
+footer .col-4 ul li a:hover{
+  color:#00A5BE;
+}
+
+.btn-support{
+  background-color: #DADEE0;
+}
+
+a.btn.btn-support{
+  color: #32495B;
+  font-size: 90%;
+  margin: 15px 0;
+}
+
+footer .col-4 ul li i{
+  font-size: 18px;
 }
